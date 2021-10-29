@@ -7,7 +7,7 @@ import logo from '../../../assets/img/pass.JPG'
 const Header = () => {
     return (
         <Navbar
-        collapsOnSelect
+        collapseOnSelect
         bg="info"
         variant="dark"
         expand="md">
