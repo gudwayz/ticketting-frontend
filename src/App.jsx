@@ -1,7 +1,8 @@
 
 import './App.css';
 import { DefaultLayout } from './components/layout/DefaultLayout';
-import TicketLists from './pages/ticket-listing/TicketLists.page';
+import { TicketDetails } from './pages/tickets/TicketDetails.page';
+//import TicketLists from './pages/ticket-listing/TicketLists.page';
 //import DashBoard from './pages/dashboard/DashBoard.page';
 
 //import Entry from './pages/entry/Entry.page'
@@ -16,7 +17,8 @@ function App() {
             {/* <DashBoard
             /> */}
             {/* <AddTicket/> */}
-            <TicketLists/>
+            {/* <TicketLists/> */}
+            <TicketDetails/>
         </DefaultLayout>
     </div>
     );
